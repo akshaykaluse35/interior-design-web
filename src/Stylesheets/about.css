@@ -1,0 +1,51 @@
+.container-about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Playfair Display", serif;
+}
+
+.typography-about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.typography-about h1{
+    font-size: 8rem;
+}
+
+
+.image-about img{
+    height: 80vh;
+    width: 1300px;
+    border-radius: 50px;
+}
+
+.our-mission{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.our-mission h1{
+    font-size: 5rem;
+}
+
+.our-mission h3{
+    margin: 0 10rem 10rem 10rem;
+}
+
+.our-team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.our-team h1{
+    font-size: 5rem;
+}

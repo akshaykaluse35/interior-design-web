@@ -1,0 +1,31 @@
+.footer-container{
+    background-image: url('../Images/Footer-bg.JPG');
+    background-size: cover;
+    background-position: center;
+    width: 100%; /* Set width to 100% to make it responsive */
+    height: 100vh; /* Use viewport height for full screen height */
+    display: flex; /* Use flexbox for centering content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    /* Add any other styles you want */
+    flex-direction: column;
+}
+
+.typography-footer h1{
+    font-size: 5rem;
+    font-family: "Playfair Display", serif;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
