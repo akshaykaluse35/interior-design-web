@@ -19,9 +19,11 @@ body{
   }
 
   .typography-section {
-    padding-right: 15rem; /* Adjust the padding bottom to create space */
+    /* padding-right: 15rem; Adjust the padding bottom to create space */
+    margin: 10rem;
     /* font-size: 8rem; */
     font-family: "Playfair Display", serif;
+    
   }
   .typography-section h1 {
     font-size: calc(2.5vw + 4rem); /* Responsive font size for heading 1 */
@@ -128,7 +130,11 @@ body{
 
     .typography-section {
       /* margin-top: 5rem; */
-      margin: 5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      /* margin: 5rem; */
     }
     .typography-section h1 {
       font-size: calc(3vw + 1rem); /* Adjust font size for smaller screens */
