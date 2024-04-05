@@ -13,10 +13,10 @@ const Footer = () => {
                 <h1>Visit Social Media </h1>
 
                 <div className="footer-social">
-                    <SocialIcon network="youtube" url=""/>
-                    <SocialIcon network="instagram" url=''/>
-                    <SocialIcon network="whatsapp" url=''/>
-                    <SocialIcon network="facebook" url=''/>
+                    <SocialIcon className='socia-icon' network="youtube" url=""/>
+                    <SocialIcon className='socia-icon' network="instagram" url=''/>
+                    <SocialIcon className='socia-icon' network="whatsapp" url=''/>
+                    <SocialIcon className='socia-icon' network="facebook" url=''/>
                 </div>
 
                 <div className="footer-adress">

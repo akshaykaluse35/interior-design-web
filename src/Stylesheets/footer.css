@@ -9,6 +9,7 @@
     align-items: center; /* Center vertically */
     /* Add any other styles you want */
     flex-direction: column;
+    font-family: "Playfair Display", serif;
 }
 
 .typography-footer h1{
@@ -28,4 +29,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: row;
+}
+
+.socia-icon{
+    margin: 1rem;
 }

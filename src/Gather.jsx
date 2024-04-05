@@ -9,9 +9,9 @@ const Gather = () => {
   return (
     <div>
       <Home/>
-      <About/>
+      {/* <About/>
       <Whatweoffer/>
-      <Footer/>
+      <Footer/> */}
     </div>
   )
 }
