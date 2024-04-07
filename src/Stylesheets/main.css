@@ -68,6 +68,7 @@ body{
   -webkit-user-select: none;
   touch-action: manipulation;
   border-radius: 25px;
+  border-color: #18181a;
 }
 
 .button-57 span:first-child {
@@ -164,4 +165,12 @@ body{
     .image-section {
         /* : 2rem; */
     }
+}
+
+@media only screen and (max-width: 428px){
+  .image-section img{
+    width: 100%;
+    height: 55vh;
+    /* object-fit: cover; */
+  }
 }

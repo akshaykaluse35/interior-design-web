@@ -5,7 +5,7 @@ const Whatweoffer = () => {
   return (
     <>
       <div className="container-offer">
-        <div className="typography-offer">
+        <div className="typography-offer-header">
             <h1>What we Offer</h1>
         </div>
             <div className="card-offers">

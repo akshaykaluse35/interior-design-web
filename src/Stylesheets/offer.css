@@ -1,77 +1,92 @@
-.container-offer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    font-family: "Playfair Display", serif;
+.container-offer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Playfair Display", serif;
+  padding-top: 10rem;
 }
 
-.card-offers{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    font-family: "Playfair Display", serif;
+.typography-offer-header h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 8rem;
 }
 
+.card-offers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font-family: "Playfair Display", serif;
+}
 .card-offer {
-    border-radius: 10px;
-    filter: drop-shadow(0 5px 10px 0 #ffffff);
-    width: 400px;
-    height: 180px;
-    background-color: #ffffff;
-    padding: 20px;
-    position: relative;
-    z-index: 0;
-    overflow: hidden;
-    margin: 1rem;
-    transition: 0.6s ease-in;
-  }
-  
-  .card-offer::before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: -15px;
-    right: -15px;
-    background: #7952b3;
-    height:220px;
-    width: 25px;
-    border-radius: 32px;
-    transform: scale(1);
-    transform-origin: 50% 50%;
-    transition: transform 0.25s ease-out;
-  }
-  
-  .card-offer:hover::before{
-      transition-delay:0.2s ;
-  
-    transform: scale(40);
-  }
-  
-  .card-offer:hover{
-      color: #ffffff;
-  
-  }
-  
-  .card-offer p{
-      padding: 10px 0;
-  }
-  
-  .row{
-    margin: 2rem;
-  }
+  border-radius: 10px;
+  filter: drop-shadow(0 5px 10px 0 #ffffff);
+  width: calc(100% - 40px);
+  max-width: 400px;
+  background-color: #ffffff;
+  padding: 20px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  margin-bottom: 20px;
+  transition: 0.6s ease-in;
+}
 
-  .typography-offer h1{
-    font-size: 5rem;
-    font-family: "Playfair Display", serif;
-  }
+.card-offer::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -15px;
+  right: -15px;
+  background: #7952b3;
+  height:220px;
+  width: 25px;
+  border-radius: 32px;
+  transform: scale(1);
+  transform-origin: 50% 50%;
+  transition: transform 0.25s ease-out;
+}
 
-  @media only screen and (max-width: 1200px) {
-    .card-offers {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
+.card-offer:hover::before {
+  transition-delay: 0.2s;
+  transform: scale(40);
+}
+
+.card-offer:hover {
+  color: #ffffff;
+}
+
+.card-offer p {
+  padding: 10px 0;
+}
+
+.row {
+  margin: 1rem;
+}
+
+.typography-offer h1 {
+  font-size: 5rem;
+  font-family: "Playfair Display", serif;
+}
+
+@media only screen and (max-width: 1200px) {
+  .card-offers {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
   }
+  .typography-offer-header h1 {
+      font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 424px) {
+  .card-offer {
+      margin-bottom: 10px;
+  }
+}
